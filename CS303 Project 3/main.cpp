@@ -57,10 +57,10 @@ int main() {
     }
     std::cout << endl;
 
-    // Sort the queue using insertion_sort
+    // sort queue
     q2.insertion_sort();
 
-    // Display the queue after sorting
+    // display queue after sorting
     cout << "Queue after sorting: ";
     sort_count = q2.size();
     for (int i = 0; i < sort_count; ++i) {
